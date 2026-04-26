@@ -662,7 +662,7 @@ export default function WebRTCVideo({
                               hdmiError ||
                               hasConnectionIssues ||
                               peerConnectionState !== "connected",
-                            "opacity-60!": showPointerLockBar,
+                            "opacity-100!": showPointerLockBar,
                             "animate-slideUpFade": isPlaying,
                           },
                         )}
